@@ -1,2 +1,2 @@
-# decapod
-Darwin Core object class for R
+# darwincore
+Darwin Core object class for R, and associated tools.

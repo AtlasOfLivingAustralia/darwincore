@@ -1,0 +1,36 @@
+Package: darwincore
+Type: Package
+Title: Methods for a Darwin Core Object Class
+Version: 0.1.0.9999
+Authors@R:
+    c(person(given = "Martin",
+             family = "Westgate",
+             email = "martin.westgate@csiro.au",
+             role = c("aut", "cre")),
+      person(given = "Shandiya",
+             family = "Balasubramanium",
+             email = "shandiya.balasubramanium@csiro.au",
+             role = c("aut")),
+      person(given = "Dax",
+             family = "Kellie",
+             email = "dax.kellie@csiro.au",
+             role = c("aut")))
+Description: Store content required for building Darwin Core Archives (DwCAs) 
+    as R objects, including tools to import and export DwCAs and their 
+    component objects.
+License: GNU
+Depends:
+  R (>= 4.2.2)
+Imports:
+  dplyr,
+  glue,
+  rlang,
+  snakecase,
+  stringr,
+  tibble,
+  xml2,
+  zip
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
